@@ -270,7 +270,7 @@ def plot():
                     break
 
     ax.plot(x, y)
-    ax.grid(b=True)
+    ax.grid()
     ax.tick_params(axis='both', labelsize=7, rotation=45)
     canvas.draw()
     canvas.get_tk_widget().grid(column=3, row=5, columnspan=3, rowspan=5)
